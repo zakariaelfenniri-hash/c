@@ -1,0 +1,11 @@
+le pgcd(a.b.c) c est la plus grand namber entier qui divise simultaliment a et b et c
+* formule generale 
+   pgcd(a,b,c)=pgcd(pgcd(a,b),c)
+*Exemple 
+  a=20
+    b=30
+      c=50
+
+  1.pgcd(20,30)=10
+  2.pgcd(10,50)=10
+    DONC pgcd(20,30,50)=10
